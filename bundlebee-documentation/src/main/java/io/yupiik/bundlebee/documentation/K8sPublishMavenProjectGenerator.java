@@ -176,7 +176,7 @@ public class K8sPublishMavenProjectGenerator implements Runnable {
                     "      <plugin>\n" +
                     "        <groupId>org.sonatype.central</groupId>\n" +
                     "        <artifactId>central-publishing-maven-plugin</artifactId>\n" +
-                    "        <version>0.6.0</version>\n" +
+                    "        <version>0.9.0</version>\n" +
                     "        <extensions>true</extensions>\n" +
                     "        <configuration>\n" +
                     "          <publishingServerId>central</publishingServerId>\n" +
