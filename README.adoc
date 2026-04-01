@@ -99,3 +99,8 @@ Yupiik Bundlebee is released under the Apache License, Version 2.0. See the LICE
 Copyright © 2025 Yupiik.
 
 🌟 *Simplify your Java applications deployment with Yupiik Bundlebee.* 🌟
+
+== 📢 Release steps
+
+* `mvn release:prepare release:perform`
+* (on the branch - final version) `cd bundlebee-documentation && mvn clean package -Pgh-pages && cd target/generated__publish-schemas/ && mvn deploy -Prelease`
