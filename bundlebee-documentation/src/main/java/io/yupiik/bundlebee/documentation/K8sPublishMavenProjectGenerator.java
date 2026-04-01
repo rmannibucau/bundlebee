@@ -255,6 +255,7 @@ public class K8sPublishMavenProjectGenerator implements Runnable {
                     "          <plugin>\n" +
                     "            <groupId>net.nicoulaj.maven.plugins</groupId>\n" +
                     "            <artifactId>checksum-maven-plugin</artifactId>\n" +
+                    "            <version>1.11</version>\n" +
                     "            <executions>\n" +
                     "              <execution>\n" +
                     "                <id>source-release-checksum</id>\n" +
